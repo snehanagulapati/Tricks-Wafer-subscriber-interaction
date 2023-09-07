@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tricks Wafer</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/a/AAcHTtdtu7IRBem6bWzKUUVsjUZzygKKYr80T-OFTm2ffgw8qA=s389-c-no" type="image/png">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+</head>
+<body>
+    <div class="wrapper-main">
+    <header>
+        <div id="heading">
+             <p>Welcome to <div id="tricks">TRICKS WAFER</div></p>
+        </div>
+       
+    </header>
+    <div class="wholebody">
+        <p>Did you subscribe to my channel "Tricks Wafer"?</p>
+    <div class= "container">
+        <button class=myButton id="navigateButton">YES</button>
+        <button class="myButton" onclick="showAlert()">NO</button>
+    </div>
+    <script>
+    function goToPage2() {
+      window.location.href = "page-2.html";
+    }
+    var navigateButton = document.getElementById("navigateButton");
+    navigateButton.addEventListener("click", goToPage2);
+    </script>
+    <script>
+    function showAlert() {
+    alert("Please do subscribe");
+    var newURL = "https://www.youtube.com/channel/UC6bP1FSyUXYQLUaCyRIxbEw";
+      window.location.href = newURL
+    }
+    </script>
+    </div class="wrapper-main">
+</body>
+</html>
+

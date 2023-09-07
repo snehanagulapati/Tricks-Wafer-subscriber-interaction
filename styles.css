@@ -1,0 +1,65 @@
+
+@media (max-width: 600px) {
+    .wrapper-main{
+        width: 100%;
+    } 
+    
+}
+@media (max-width: 601px) {
+
+    .wrapper-main{
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+
+    .wrapper-main{
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .wrapper-main{
+        width: 100%;
+    }
+
+}
+@media (max-width: 992px) {
+ 
+    .wrapper-main{
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+
+    .wrapper-main{
+        width: 100%;
+    }
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    font-family: "Bradley Hand", cursive;
+}
+
+#drawing_canvas {
+    position: absolute;
+    margin: auto;
+    width: 1012px;
+    height: 850px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 80px;
+}
+#tricks{
+    background-color: aliceblue;
+}
+
